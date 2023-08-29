@@ -1,0 +1,196 @@
+/* Utilities */
+body {
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+/* header */
+.header {
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 240px 0px;
+    margin-bottom: 150px;
+}
+
+.header-description {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.header-paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.btn-primary {
+    padding: 20px 40px;
+    border-radius: 8px;
+    border-style: none;
+    background: #E55473;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+
+}
+
+.common-heading {
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.common-paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 45px;
+}
+
+/* main */
+
+.main .flowers {
+    display: flex;
+    gap: 20px;
+    margin: 50px 220px;
+}
+
+.flowers .flower-1 {
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
+    padding: 100px 80px 0px;
+}
+
+.flowers .flower-2 {
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(5, 151, 160, 0.15);
+    padding: 115px 45px 50px;
+}
+
+.flowers .flower-3 {
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(71, 125, 17, 0.15);
+    padding: 100px 80px 0px;
+}
+
+.main .flowers-name {
+    display: flex;
+    gap: 305px;
+    justify-content: space-around;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 32px 350px;
+}
+
+.flowers-name a {
+    color: #272727;
+}
+
+.hot-deal {
+    display: flex;
+    gap: 200px;
+    padding: 100px 400px;
+    margin: 120px 0px;
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 0.05);
+}
+
+.hot-deal .hot-deal-heading {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.hot-deal-paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.deal .text-primary {
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.social-media .flowers-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.latest-deal {
+    margin: 100px 200px;
+    padding: 100px 200px;
+    background-repeat: no-repeat;
+    background-image: url('../Flower\ Asset/Rectangle 9.png')
+}
+
+.latest-deal .contact {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.latest-deal .contact input {
+    width: 550px;
+    height: 45px;
+    position: relative;
+    top: 15px;
+    border-radius: 8px;
+    border-style: none;
+    background: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+
+}
+
+/* footer */
+
+.footer {
+    background-color: #111010;
+    padding: 100px 500px;
+}
+
+.footer .common-heading {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.footer .text-primary {
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.footer .footer-paragraph {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 30px;
+
+}
+
+.footer .footer-last-paragraph {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
